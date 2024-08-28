@@ -1,6 +1,6 @@
 {
   "name": "api-search-ts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A React Typescript library for connecting search forms with API endpoints and providing reusable components",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
