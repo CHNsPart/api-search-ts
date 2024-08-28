@@ -1,18 +1,44 @@
 {
   "name": "api-search-ts",
-  "version": "0.1.0",
-  "description": "A TypeScript library for connecting search forms with API endpoints",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "version": "0.1.1",
+  "description": "A React Typescript library for connecting search forms with API endpoints and providing reusable components",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
+    "build": "rollup -c rollup.config.mjs",
+    "test": "jest",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": ["search", "typescript", "api", "form", "table", "card"],
+  "keywords": [
+    "react",
+    "search",
+    "api",
+    "components"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
   "author": "Touhidul Islam Chayan",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/CHNsPart/api-search-ts.git"
+  },
+  "dependencies": {
+    "@types/node": "^22.5.1",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "axios": "^1.7.5",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "rollup": "^4.21.1",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "rollup-plugin-typescript2": "^0.36.0"
   }
 }
