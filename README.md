@@ -1,4 +1,5 @@
-# api-search-ts
+![api-search-ts](https://github.com/user-attachments/assets/278fb229-ba76-4080-931c-a682fc926657)
+ # api-search-ts
 
 A powerful and flexible React TypeScript library for creating advanced search interfaces with API integration.
 
@@ -9,6 +10,10 @@ A powerful and flexible React TypeScript library for creating advanced search in
 - TypeScript support for better type safety and developer experience
 - Pagination support out of the box
 - Customizable and extensible components
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6eb930f6-9dce-46e8-b06c-9a909ad965f6" width="100%" />
+</p>
 
 ## Installation
 
